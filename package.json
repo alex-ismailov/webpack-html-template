@@ -1,5 +1,5 @@
 {
-  "name": "webpack-template",
+  "name": "currency-converter-html-template",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,20 +11,9 @@
     "> 1%",
     "last 3 version"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/alex-ismailov/webpack-template.git"
-  },
-  "keywords": [
-    "webpack",
-    "template"
-  ],
+  "keywords": [],
   "author": "Alexander Ismailov",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/alex-ismailov/webpack-template/issues"
-  },
-  "homepage": "https://github.com/alex-ismailov/webpack-template#readme",
   "devDependencies": {
     "@babel/core": "^7.11.6",
     "@babel/preset-env": "^7.11.5",
@@ -50,5 +39,7 @@
     "webpack-dev-server": "^3.11.0",
     "webpack-merge": "^5.1.4"
   },
-  "dependencies": {}
+  "dependencies": {
+    "bootstrap": "^4.5.2"
+  }
 }
